@@ -24,7 +24,7 @@ html
 ```
 <p>Today's chance of rain:  <% possibility %>%</p>
 ```
-
+code
 ```
 let embedObject: any[] = [];
 
@@ -48,10 +48,16 @@ html
     </tbody>
 </table>
 ```
-
+code
 ```
+let embedObject: any[] = [];
+
 embedObject.push({ tableObject: [
   { Kind: 'greeting', Receiver: 'colllegue', SendText: 'Hello' },
   { Kind: 'apologize', Receiver: 'customer', SendText: 'Sorry' }
 ] });
+
+embedObject.push({ possibility: possibility });
+
+const result = minimalTE(html, embedObject);
 ```
