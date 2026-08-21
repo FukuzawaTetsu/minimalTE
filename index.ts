@@ -1,4 +1,4 @@
-const miniTE = function(html: string, items: any[]) {
+const minimalTE = function(html: string, items: any[]) {
   //第一引数htmlの<% %>に囲まれた文字列取得
   const placeHolders = [...html.matchAll(/<%\s*(\w+)\s*%>/g)].map(m => m[1]);
   //第一引数htmlの<%table %>に囲まれた文字列取得
@@ -92,4 +92,4 @@ const miniTE = function(html: string, items: any[]) {
 
 }
 
-export default miniTE;
+export default minimalTE;
