@@ -61,3 +61,9 @@ embedObject.push({ possibility: possibility });
 
 const result = minimalTE(html, embedObject);
 ```
+
+## Badge
+
+```md
+[![NPM](https://nodei.co/npm/minimal-te.svg)](https://nodei.co/npm/minimal-te/)
+```
