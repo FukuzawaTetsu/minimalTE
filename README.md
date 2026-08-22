@@ -63,7 +63,7 @@ const result = minimalTE(html, embedObject);
 ```
 
 ## Badge
-
+[![NPM](https://nodei.co/npm/minimal-te.svg)](https://nodei.co/npm/minimal-te/)
 ```md
 [![NPM](https://nodei.co/npm/minimal-te.svg)](https://nodei.co/npm/minimal-te/)
 ```
