@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const minimalTE = function (html, items) {
     //第一引数htmlの<% %>に囲まれた文字列取得
     const placeHolders = [...html.matchAll(/<%\s*(\w+)\s*%>/g)].map(m => m[1]);
@@ -83,4 +81,4 @@ const minimalTE = function (html, items) {
     ;
     return embeded;
 };
-exports.default = minimalTE;
+export default minimalTE;
