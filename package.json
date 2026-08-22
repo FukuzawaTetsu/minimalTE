@@ -9,5 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "type": "commonjs"
+  "type": "commonjs",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
 }
