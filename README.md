@@ -62,6 +62,14 @@ embedObject.push({ possibility: possibility });
 const result = minimalTE(html, embedObject);
 ```
 
+## CDN Usage
+minimal‑te is published on npm and can be loaded directly from a CDN such as jsDelivr.
+This allows you to use minimal‑te in the browser, Cloudflare Workers, or any other edge runtime without installing anything locally.
+
+```
+import minimalTE from 'https://cdn.jsdelivr.net/npm/minimal-te/dist/index.js';
+```
+
 ## Badge
 [![NPM](https://nodei.co/npm/minimal-te.svg)](https://nodei.co/npm/minimal-te/)
 ```md
